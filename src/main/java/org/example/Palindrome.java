@@ -20,18 +20,28 @@ import java.util.Scanner;
 
 * */
 public class Palindrome {
-
+/*
     public String solution(String str) {
         String answer;
-        String amended = str.toLowerCase();
-        String reversed = new StringBuilder(amended).reverse().toString();
-        if( amended.equals(reversed) ) {
+ //     str = str.toLowerCase();
+        String reversed = new StringBuilder(str).reverse().toString();
+        if( str.equalsIgnoreCase(reversed)) {
             answer = "YES";
         } else {
             answer = "NO";
         }
 
 
+        return answer;
+    }
+ */
+    public String solution(String str) {
+        String answer = "YES";
+        str = str.toLowerCase();
+        int len = str.length();
+        for(int i = 0; i < len / 2; i++) {
+            if(str.charAt(i) != str.charAt(len - i - 1)) return "NO";
+        }
         return answer;
     }
     public static void main(String[] args) {
