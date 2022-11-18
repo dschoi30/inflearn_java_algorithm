@@ -18,7 +18,7 @@ import java.util.Scanner;
  * 출력
  * N개의 단어를 입력된 순서대로 한 줄에 하나씩 뒤집어서 출력합니다.
 * */
-public class ReversingCharacter {
+public class ReversingWord {
 //    public ArrayList<String> solution(int n, String[] str) {
 //        ArrayList<String> answer = new ArrayList<>();
 //        for(String x : str) {
@@ -47,7 +47,7 @@ public class ReversingCharacter {
     }
 
     public static void main(String[] args) {
-        ReversingCharacter T = new ReversingCharacter();
+        ReversingWord T = new ReversingWord();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         String[] str = new String[n];

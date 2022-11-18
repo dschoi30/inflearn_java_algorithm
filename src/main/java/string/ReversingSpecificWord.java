@@ -16,7 +16,7 @@ import java.util.Scanner;
 출력
 첫 줄에 알파벳만 뒤집힌 문자열을 출력합니다.
 * */
-public class ReversingSpecificCharacter {
+public class ReversingSpecificWord {
 
     public String solution(String str) {
         String answer;
@@ -37,7 +37,7 @@ public class ReversingSpecificCharacter {
         return answer;
     }
     public static void main(String[] args) {
-        ReversingSpecificCharacter T = new ReversingSpecificCharacter();
+        ReversingSpecificWord T = new ReversingSpecificWord();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));
