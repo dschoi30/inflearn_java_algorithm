@@ -17,7 +17,7 @@ import java.util.Scanner;
 출력
 첫 줄에 압축된 문자열을 출력한다.
 
-예시 입력 1
+예시 입력 f
 KKHSSSSSSSE
 
 예시 출력 1
