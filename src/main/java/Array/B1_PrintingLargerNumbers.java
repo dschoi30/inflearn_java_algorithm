@@ -24,7 +24,7 @@ N개의 정수를 입력받아, 자신의 바로 앞 수보다 큰 수만 출력
 7 9 6 12
 
 * */
-public class PrintingLargerNumbers {
+public class B1_PrintingLargerNumbers {
     private ArrayList<Integer> solution(int n, int[] arr) {
         ArrayList<Integer> answer = new ArrayList<>();
         answer.add(arr[0]);
@@ -34,7 +34,7 @@ public class PrintingLargerNumbers {
         return answer;
     }
     public static void main(String[] args) {
-        PrintingLargerNumbers T = new PrintingLargerNumbers();
+        B1_PrintingLargerNumbers T = new B1_PrintingLargerNumbers();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] arr = new int[n];
