@@ -30,7 +30,7 @@ N개이 숫자가 입력되면 오름차순으로 정렬하여 출력하는 프�
 
 *
 * */
-public class F1_InsertionSort {
+public class F1_SelectionSort {
 
     private int[] solution(int n, int[] arr) {
         for(int i = 0; i < n - 1; i++) {
@@ -47,7 +47,7 @@ public class F1_InsertionSort {
     }
 
     public static void main(String[] args) {
-        F1_InsertionSort T = new F1_InsertionSort();
+        F1_SelectionSort T = new F1_SelectionSort();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] arr = new int[n];
