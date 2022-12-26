@@ -19,7 +19,7 @@ import java.util.Scanner;
 첫 번째 줄에 회문 문자열인지의 결과를 YES 또는 NO로 출력합니다.
 
 * */
-public class Palindrome {
+public class A7_Palindrome {
 /*
     public String solution(String str) {
         String answer;
@@ -45,7 +45,7 @@ public class Palindrome {
         return answer;
     }
     public static void main(String[] args) {
-        Palindrome T = new Palindrome();
+        A7_Palindrome T = new A7_Palindrome();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));

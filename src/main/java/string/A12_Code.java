@@ -56,7 +56,7 @@ import java.util.Scanner;
 COOL
 
 * */
-public class Code {
+public class A12_Code {
     private String solution(int n, String s) {
         String answer = "";
 
@@ -72,7 +72,7 @@ public class Code {
     }
 
     public static void main(String[] args) {
-        Code T = new Code();
+        A12_Code T = new A12_Code();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         String s = kb.next();

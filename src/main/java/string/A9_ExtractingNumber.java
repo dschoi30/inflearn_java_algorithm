@@ -18,7 +18,7 @@ import java.util.Scanner;
 출력
 첫 줄에 자연수를 출력합니다.
 * */
-public class ExtractingNumber {
+public class A9_ExtractingNumber {
 /*
     public int solution(String str) {
         int answer = 0;
@@ -38,7 +38,7 @@ public class ExtractingNumber {
         return Integer.parseInt(answer);
     }
     public static void main(String[] args) {
-        ExtractingNumber T = new ExtractingNumber();
+        A9_ExtractingNumber T = new A9_ExtractingNumber();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));

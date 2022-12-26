@@ -21,7 +21,7 @@ import java.util.Scanner;
 첫 번째 줄에 팰린드롬인지의 결과를 YES 또는 NO로 출력합니다.
 
 * */
-public class Palindrome2 {
+public class A8_Palindrome2 {
     public String solution(String str) {
         String answer = "NO";
         str = str.toUpperCase().replaceAll("[^A-Z]", "");
@@ -31,7 +31,7 @@ public class Palindrome2 {
         return answer;
     }
     public static void main(String[] args) {
-        Palindrome2 T = new Palindrome2();
+        A8_Palindrome2 T = new A8_Palindrome2();
         Scanner kb = new Scanner(System.in);
         String str = kb.nextLine();
         System.out.println(T.solution(str));

@@ -30,7 +30,7 @@ KSTTTSEEKFKKKDJJGG
 KST3SE2KFK3DJ2G2
 
 * */
-public class CompressingWord {
+public class A11_CompressingWord {
     private String solution(String s) {
         String answer = "";
         s = s + " ";
@@ -50,7 +50,7 @@ public class CompressingWord {
     }
 
     public static void main(String[] args) {
-        CompressingWord T = new CompressingWord();
+        A11_CompressingWord T = new A11_CompressingWord();
         Scanner kb = new Scanner(System.in);
 
         String s = kb.next();

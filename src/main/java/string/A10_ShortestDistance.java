@@ -22,7 +22,7 @@ teachermode e
 1 0 1 2 1 0 1 2 2 1 0
 
 * */
-public class ShortestDistance {
+public class A10_ShortestDistance {
 
     public int[] solution(String s, char t) {
         int[] answer = new int[s.length()];
@@ -50,7 +50,7 @@ public class ShortestDistance {
     }
 
     public static void main(String[] args) {
-        ShortestDistance T = new ShortestDistance();
+        A10_ShortestDistance T = new A10_ShortestDistance();
         Scanner kb = new Scanner(System.in);
         String s = kb.next();
         char t = kb.next().charAt(0);

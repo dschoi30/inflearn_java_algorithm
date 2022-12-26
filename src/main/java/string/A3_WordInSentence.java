@@ -23,7 +23,7 @@ It is time to study
 예시 출력 1
 study
 * */
-public class WordInSentence {
+public class A3_WordInSentence {
     public String solution(String str) {
         String answer = "";
         int m = Integer.MIN_VALUE, pos;
@@ -41,7 +41,7 @@ public class WordInSentence {
     }
 
     public static void main(String[] args) {
-        WordInSentence T = new WordInSentence();
+        A3_WordInSentence T = new A3_WordInSentence();
         Scanner kb = new Scanner(System.in);
         String str = kb.nextLine();
         System.out.println(T.solution(str));
