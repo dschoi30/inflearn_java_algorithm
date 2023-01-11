@@ -66,6 +66,8 @@ public class F6_SortingWithDeepCopy {
         for(int i = 0; i < n; i++) {
             arr[i] = kb.nextInt();
         }
-        System.out.println(T.solution(n, arr));
+        for(int x : T.solution(n, arr)) {
+            System.out.print(x + " ");
+        }
     }
 }
