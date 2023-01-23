@@ -29,25 +29,25 @@ N명의 지원자가 주어지면 위의 선발원칙으로 최대 몇 명의 �
 ▣ 출력예제 1
 3
 * */
-class Body implements Comparable<Body> {
+class Player implements Comparable<Player> {
     public int h, w;
-    Body(int h, int w) {
+    Player(int h, int w) {
         this.h = h;
         this.w = w;
     }
     @Override
-    public int compareTo(Body o) {
+    public int compareTo(Player o) {
         return o.h - this.h;
     }
 }
 
 public class I1_GreedyAlgorithmCount {
 
-    public int solution(ArrayList<Body> arr, int n) {
+    public int solution(ArrayList<Player> arr, int n) {
         int cnt = 0;
         Collections.sort(arr);
         int max = Integer.MIN_VALUE;
-        for(Body ob : arr) {
+        for(Player ob : arr) {
             if(ob.w > max) {
                 max = ob.w;
                 cnt++;
@@ -61,11 +61,11 @@ public class I1_GreedyAlgorithmCount {
         I1_GreedyAlgorithmCount T = new I1_GreedyAlgorithmCount();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
-        ArrayList<Body> arr = new ArrayList<>();
+        ArrayList<Player> arr = new ArrayList<>();
         for(int i = 0; i < n; i++){
             int h = kb.nextInt();
             int w = kb.nextInt();
-            arr.add(new Body(h, w));
+            arr.add(new Player(h, w));
         }
         System.out.println(T.solution(arr, n));
     }
